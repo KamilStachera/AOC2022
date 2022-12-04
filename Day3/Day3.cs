@@ -10,7 +10,13 @@ namespace AOC.NewFolder
     {
         public static int FirstTask()
         {
-            return 0;
+            return File.ReadAllLines(@"..\..\..\Day3\input3.txt")
+                       .Select(x => new string[2] { x.Substring(0, x.Length / 2), 
+                                                    x.Substring(x.Length / 2, x.Length / 2) })
+                       .Select(x => x[0].Intersect(x[1])
+                                        .First())
+                       .Select(x => char.IsUpper(x) ? x - 38 : x - 96)
+                       .Sum();
         }
 
         public static int SecondTask()
