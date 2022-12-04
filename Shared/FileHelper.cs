@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AOC
+namespace AOC.Shared
 {
-    internal class Day1
+    public class FileHelper
     {
+
     }
 }

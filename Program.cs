@@ -1,10 +1,15 @@
-﻿namespace AOC
+﻿using AOC.NewFolder;
+
+namespace AOC
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+
+            //Console.WriteLine(Day1.FirstTask());
+            Console.WriteLine(Day1.SecondTask());
+
         }
     }
 }
