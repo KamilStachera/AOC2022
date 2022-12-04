@@ -6,11 +6,10 @@ namespace AOC
     {
         static void Main(string[] args)
         {
-
             //Console.WriteLine(Day1.FirstTask());
             //Console.WriteLine(Day1.SecondTask());
-
-            Console.WriteLine(Day2.FirstTask());
+            //Console.WriteLine(Day2.FirstTask());
+            //Console.WriteLine(Day2.SecondTask());
 
         }
     }

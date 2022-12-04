@@ -7,8 +7,8 @@ but this doen't mean that I endorse such linq usage (duh, I even hate this type 
 
 | Day | First Task | Second Task |
 | --- | ---------- | ----------- |
-| 1 | 1 | 1|
-| 2 | 1 | tbd|
+| 1 | 1 | 1 |
+| 2 | 1 | 1 |
 | 3 | - | - |
 | 4 | - | - |
 | 5 | - | - |
