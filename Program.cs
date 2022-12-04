@@ -10,7 +10,8 @@ namespace AOC
             //Console.WriteLine(Day1.SecondTask());
             //Console.WriteLine(Day2.FirstTask());
             //Console.WriteLine(Day2.SecondTask());
-            Console.WriteLine(Day3.FirstTask());
+            //Console.WriteLine(Day3.FirstTask());
+            Console.WriteLine(Day3.SecondTask());
 
         }
     }

@@ -9,7 +9,7 @@ but this doen't mean that I endorse such linq usage (duh, I even hate this type 
 | --- | ---------- | ----------- |
 | 1 | 1 | 1 |
 | 2 | 1 | 1 |
-| 3 | 1 | - |
+| 3 | 1 | 1 |
 | 4 | - | - |
 | 5 | - | - |
 | 6 | - | - |

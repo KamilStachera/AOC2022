@@ -21,7 +21,13 @@ namespace AOC.NewFolder
 
         public static int SecondTask()
         {
-            return 0;
+            return File.ReadAllLines(@"..\..\..\Day3\input3.txt")
+                       .Chunk(3)
+                       .Select(x => x[0].Intersect(x[1])
+                                        .Intersect(x[2])
+                                        .First())
+                       .Select(x => char.IsUpper(x) ? x - 38 : x - 96)
+                       .Sum();
         }
     }
 }
